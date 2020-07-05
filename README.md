@@ -1,6 +1,6 @@
-# 도커 컴포즈 설정을 위한 파이썬/Django 샘플 프로젝트
+# Sample Python/Django project for Docker Compose setup
 
-### 요약
+### summary
 
 ```
 $ git clone https://github.com/raccoonyy/django-sample-for-docker-compose.git
@@ -8,37 +8,38 @@ $ cd django-sample-for-docker-compose
 $ docker-compose up
 ```
 
-### 요구조건
+### Requirement
 
-- 도커 엔진 : 1.12.0 이상
-- 도커 컴포즈 : 1.6.0 이상
+-Docker engine: 1.12.0 or higher
+-Docker Compose: 1.6.0 or higher
 
-### 실행
+### Execution
 
-1. 저장소 클론
-
-```
-$ git clone https://github.com/raccoonyy/django-sample-for-docker-compose.git
-```
-
-2. 소스 디렉터리로 이동
+1. Storage clone
 
 ```
-$ cd django-sample-for-docker-compose
+$ git clone https://github.com/Aman02-github/DjangoMy.git
 ```
 
-3. 컴포즈로 서비스 실행
+2. Go to source directory
+
+```
+$ cd djangoMy
+```
+
+3. Running the service with Compose
 
 ```
 $ docker-compose up
 ```
 
-### 도커 컴포즈 구성
+### Docker Compose Configuration
 
 - docker-compose.yml
 
-도커 컴포즈 명령(`docker-compose`) 실행시 참고하는 설정 모음
+
+A collection of settings to refer to when executing the docker compose command (`docker-compose`)
 
 - compose/django/Dockerfile-dev
 
-개발용 컨테이너를 만들기 위한 Dockerfile (배포용 Dockerfile과 살짝 다름)
+Dockerfile for creating development containers (slightly different from Dockerfiles for distribution)
