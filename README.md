@@ -1,4 +1,4 @@
-# Sample Python/Django project for Docker Compose setup
+# Python/Django project for Docker Compose setup
 
 ### summary
 
