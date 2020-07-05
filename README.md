@@ -3,8 +3,8 @@
 ### summary
 
 ```
-$ git clone https://github.com/raccoonyy/django-sample-for-docker-compose.git
-$ cd django-sample-for-docker-compose
+$ git clone https://github.com/Aman02-github/DjangoMy.git
+$ cd djangoMy
 $ docker-compose up
 ```
 
